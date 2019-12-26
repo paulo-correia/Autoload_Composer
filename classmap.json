@@ -1,5 +1,19 @@
 {
-  "autoload" : {
+    "name": "paulo-correia/Autoload_Composer",
+    "description": "Autload com o Composer - Classmap",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+           {
+            "name": "Paulo Correia",
+            "role": "Developer",
+            "homepage": "https://github.com/paulo-correia"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload" : {
      "classmap" : [
         "Testing" ]
       }
