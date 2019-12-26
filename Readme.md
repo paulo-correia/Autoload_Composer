@@ -11,7 +11,21 @@ Editor de Texto de sua preferência
 
 ```
 {
-  "autoload" : {
+    "name": "paulo-correia/Autoload_Composer",
+    "description": "Autload com o Composer - Classmap",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+           {
+            "name": "Paulo Correia",
+            "role": "Developer",
+            "homepage": "https://github.com/paulo-correia"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload" : {
      "classmap" : [
         "Testing" ]
       }
@@ -25,9 +39,23 @@ Onde o "Testing" é a pasta onde vão estar as suas classes, esta pasta fica na 
 
 ```
 {
-  "autoload": {
-    "psr-4": {
-      "Testing\\":"src/"    }
+    "name": "paulo-correia/Autoload_Composer",
+    "description": "Autload com o Composer - Namespace",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+           {
+            "name": "Paulo Correia",
+            "role": "Developer",
+            "homepage": "https://github.com/paulo-correia"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+          "Testing\\":"src/"    }
   }
 }
 ```
