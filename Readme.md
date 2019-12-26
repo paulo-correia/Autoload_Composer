@@ -11,7 +11,7 @@ Editor de Texto de sua preferência
 
 ```
 {
-    "name": "paulo-correia/Autoload_Composer",
+    "name": "paulo-correia/autoload_composer",
     "description": "Autload com o Composer - Classmap",
     "minimum-stability": "stable",
     "license": "MIT",
@@ -39,7 +39,7 @@ Onde o "Testing" é a pasta onde vão estar as suas classes, esta pasta fica na 
 
 ```
 {
-    "name": "paulo-correia/Autoload_Composer",
+    "name": "paulo-correia/autoload_composer",
     "description": "Autload com o Composer - Namespace",
     "minimum-stability": "stable",
     "license": "MIT",
